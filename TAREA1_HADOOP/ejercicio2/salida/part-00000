@@ -1,87 +1,84 @@
-Alavés ; Visitante ; 1	
-Albacete ; Local ; 1	
-Albacete ; Visitante ; 1	
-Almería ; Local ; 1	
-Almería ; Visitante ; 1	
-Athletic ; Local ; 1	
-Athletic ; Visitante ; 1	
-Atlético ; Local ; 1	
-Atlético ; Visitante ; 2	
-Barcelona ; Local ; 1	
-Barcelona ; Visitante ; 3	
-Celta ; Local ; 2	
-Celta ; Visitante ; 1	
-Cádiz ; Local ; 1	
-Cádiz ; Visitante ; 1	
-Córdoba ; Local ; 1	
-Córdoba ; Visitante ; 1	
-Deportivo Alavés ; Local ; 1	
-Deportivo Alavés ; Visitante ; 1	
-Deportivo ; Local ; 1	
-Deportivo ; Visitante ; 2	
-Eibar ; Local ; 1	
-Eibar ; Visitante ; 1	
-Elche ; Local ; 1	
-Elche ; Visitante ; 1	
-Espanyol ; Local ; 1	
-Espanyol ; Visitante ; 1	
-Getafe ; Local ; 1	
-Getafe ; Visitante ; 1	
-Gimnàstic Tarragona ; Local ; 1	
-Gimnàstic Tarragona ; Visitante ; 1	
-Girona ; Local ; 1	
-Girona ; Visitante ; 1	
-Granada ; Local ; 1	
-Granada ; Visitante ; 1	
-Huesca ; Local ; 1	
-Huesca ; Visitante ; 1	
-Hércules ; Local ; 1	
-Hércules ; Visitante ; 1	
-Las Palmas ; Local ; 0	
-Las Palmas ; Visitante ; 1	
-Leganés ; Local ; 1	
-Leganés ; Visitante ; 1	
-Levante ; Local ; 1	
-Levante ; Visitante ; 1	
-Mallorca ; Local ; 1	
-Mallorca ; Visitante ; 1	
-Málaga ; Local ; 1	
-Málaga ; Visitante ; 1	
-Numancia ; Local ; 1	
-Numancia ; Visitante ; 1	
-Osasuna ; Local ; 1	
-Osasuna ; Visitante ; 1	
-R. Sociedad ; Local ; 1	
-R. Sociedad ; Visitante ; 2	
-Racing ; Local ; 1	
-Racing ; Visitante ; 1	
-Rayo Vallecano ; Local ; 1	
-Rayo Vallecano ; Visitante ; 1	
-Real Betis ; Local ; 1	
-Real Betis ; Visitante ; 1	
-Real Madrid ; Local ; 1	
-Real Madrid ; Visitante ; 3	
-Real Murcia ; Local ; 2	
-Real Murcia ; Visitante ; 1	
-Real Oviedo ; Local ; 1	
-Real Oviedo ; Visitante ; 2	
-Real Sociedad ; Local ; 1	
-Real Sociedad ; Visitante ; 1	
-Real Sporting ; Local ; 1	
-Real Sporting ; Visitante ; 1	
-Real Valladolid ; Local ; 1	
-Real Valladolid ; Visitante ; 1	
-Real Zaragoza ; Local ; 1	
-Real Zaragoza ; Visitante ; 2	
-Recreativo ; Local ; 1	
-Recreativo ; Visitante ; 1	
-Sevilla ; Local ; 1	
-Sevilla ; Visitante ; 2	
-Tenerife ; Local ; 1	
-Tenerife ; Visitante ; 1	
-Valencia ; Local ; 1	
-Valencia ; Visitante ; 2	
-Villarreal ; Local ; 1	
-Villarreal ; Visitante ; 2	
-Xerez ; Local ; 1	
-Xerez ; Visitante ; 1	
+Alavés ; Local ; 1.12	
+Alavés ; Visitante ; 0.96	
+Albacete ; Local ; 1.11	
+Albacete ; Visitante ; 0.82	
+Almería ; Local ; 1.26	
+Almería ; Visitante ; 0.94	
+Athletic ; Local ; 1.48	
+Athletic ; Visitante ; 1.08	
+Atlético ; Local ; 1.83	
+Atlético ; Visitante ; 1.3	
+Barcelona ; Local ; 2.67	
+Barcelona ; Visitante ; 1.96	
+Celta ; Local ; 1.44	
+Celta ; Visitante ; 1.09	
+Cádiz ; Local ; 1.01	
+Cádiz ; Visitante ; 0.79	
+Córdoba ; Local ; 0.63	
+Córdoba ; Visitante ; 0.53	
+Deportivo ; Local ; 1.51	
+Deportivo ; Visitante ; 1.04	
+Eibar ; Local ; 1.27	
+Eibar ; Visitante ; 0.96	
+Elche ; Local ; 0.97	
+Elche ; Visitante ; 0.81	
+Espanyol ; Local ; 1.37	
+Espanyol ; Visitante ; 0.94	
+Getafe ; Local ; 1.28	
+Getafe ; Visitante ; 0.91	
+Gimnàstic Tarragona ; Local ; 1.21	
+Gimnàstic Tarragona ; Visitante ; 0.58	
+Girona ; Local ; 1.37	
+Girona ; Visitante ; 1.18	
+Granada ; Local ; 1.11	
+Granada ; Visitante ; 0.95	
+Huesca ; Local ; 1.08	
+Huesca ; Visitante ; 0.95	
+Hércules ; Local ; 1.42	
+Hércules ; Visitante ; 0.47	
+Las Palmas ; Local ; 1.22	
+Las Palmas ; Visitante ; 0.93	
+Leganés ; Local ; 1.01	
+Leganés ; Visitante ; 0.79	
+Levante ; Local ; 1.31	
+Levante ; Visitante ; 0.93	
+Mallorca ; Local ; 1.45	
+Mallorca ; Visitante ; 1.01	
+Málaga ; Local ; 1.39	
+Málaga ; Visitante ; 1.02	
+Numancia ; Local ; 1.26	
+Numancia ; Visitante ; 0.78	
+Osasuna ; Local ; 1.24	
+Osasuna ; Visitante ; 0.89	
+Racing ; Local ; 1.24	
+Racing ; Visitante ; 1.05	
+Rayo Vallecano ; Local ; 1.4	
+Rayo Vallecano ; Visitante ; 1.04	
+Real Betis ; Local ; 1.36	
+Real Betis ; Visitante ; 1.09	
+Real Madrid ; Local ; 2.62	
+Real Madrid ; Visitante ; 1.89	
+Real Murcia ; Local ; 1.11	
+Real Murcia ; Visitante ; 0.61	
+Real Oviedo ; Local ; 1.71	
+Real Oviedo ; Visitante ; 0.79	
+Real Sociedad ; Local ; 1.55	
+Real Sociedad ; Visitante ; 1.16	
+Real Sporting ; Local ; 1.27	
+Real Sporting ; Visitante ; 0.85	
+Real Valladolid ; Local ; 1.16	
+Real Valladolid ; Visitante ; 0.9	
+Real Zaragoza ; Local ; 1.52	
+Real Zaragoza ; Visitante ; 0.92	
+Recreativo ; Local ; 1.21	
+Recreativo ; Visitante ; 0.93	
+Sevilla ; Local ; 1.72	
+Sevilla ; Visitante ; 1.23	
+Tenerife ; Local ; 1.24	
+Tenerife ; Visitante ; 0.66	
+Valencia ; Local ; 1.76	
+Valencia ; Visitante ; 1.2	
+Villarreal ; Local ; 1.67	
+Villarreal ; Visitante ; 1.19	
+Xerez ; Local ; 1.05	
+Xerez ; Visitante ; 0.95	
