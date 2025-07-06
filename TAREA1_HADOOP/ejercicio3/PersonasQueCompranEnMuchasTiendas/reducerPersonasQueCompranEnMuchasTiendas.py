@@ -13,20 +13,18 @@ tiendas = set()
 for claveValor in sys.stdin:
     cliente, tienda = claveValor.strip().split("\t", 1)
 
-    if subproblema == None:
+    if subproblema is None:
         subproblema = cliente
 
     if subproblema == cliente:
-	tiendas.add(tienda)	
-
+        tiendas.add(tienda)
     else:
-	if len(tiendas) >= 3:	
-		print("%s" % (subproblema))
+        if len(tiendas) >= 3:
+            print("%s" % subproblema)
 
         subproblema = cliente
-	tiendas = set()
-	tiendas.add(tienda)
+        tiendas = set()
+        tiendas.add(tienda)
 
-
-if len(tiendas) >= 3:	
-	print("%s" % (subproblema))
+if len(tiendas) >= 3:
+    print("%s" % subproblema)

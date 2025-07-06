@@ -13,24 +13,20 @@ tiendas = set()
 for claveValor in sys.stdin:
     cliente, tienda = claveValor.strip().split("\t", 1)
 
-    if subproblema == None:
+    if subproblema is None:
         subproblema = cliente
 
     if subproblema == cliente:
-	tiendas.add(tienda)	
-
+        tiendas.add(tienda)
     else:
-	if len(tiendas) >= 3:	
-		for numTiendaVisitada in range(0, 3, 1):
-			tiendaVisitada = tiendas.pop()
-			print("%s\t%s" % (subproblema, tiendaVisitada))
+        for numTiendaVisitada in range(0, len(tiendas),1):
+            tiendaVisitada = tiendas.pop()
+            print("%s\t%s" % (subproblema, tiendaVisitada))
 
         subproblema = cliente
-	tiendas = set()
-	tiendas.add(tienda)
+        tiendas = set()
+        tiendas.add(tienda)
 
-
-if len(tiendas) >= 3:	
-	for numTiendaVisitada in range(0, 3, 1):
-		tiendaVisitada = tiendas.pop()
-		print("%s\t%s" % (subproblema, tiendaVisitada))
+for numTiendaVisitada in range(0, len(tiendas),1):
+    tiendaVisitada = tiendas.pop()
+    print("%s\t%s" % (subproblema, tiendaVisitada))

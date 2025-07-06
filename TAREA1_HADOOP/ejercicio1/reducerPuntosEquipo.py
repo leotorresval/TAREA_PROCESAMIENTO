@@ -17,7 +17,8 @@ for linea in sys.stdin:
         print(subproblema,":",puntos)
         subproblema=equipo
         puntos=puntaje
-    
+if subproblema is not None:
+    print(f"{subproblema}:{puntos}")
     
     
     
