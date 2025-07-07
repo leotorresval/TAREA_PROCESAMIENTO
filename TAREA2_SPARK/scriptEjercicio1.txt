@@ -1,0 +1,4 @@
+#Desde el directorio raiz de la tarea nos movemos al Ejercicio1
+cd Ejercicio1
+#Posteriormente ejecutamos el script
+spark-submit personaGastosSinTarjetaCredito.py

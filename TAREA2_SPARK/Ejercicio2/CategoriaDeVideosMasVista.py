@@ -8,7 +8,7 @@ archivos = [os.path.join(entrada, f) for f in os.listdir(entrada) if f != "log.t
 rdd = spark.sparkContext.textFile(",".join(archivos))
 rdd = rdd.map(lambda x: x.strip().split("\t"))
 rddCompleto = rdd.filter(lambda x : len(x)>=6)
-rdd1 = rddCompleto.map(lambda x: (x[3].lower(),int(x[5])))
+rdd1 = rddCompleto.map(lambda x: (x[3],int(x[5])))
 rdd1 = rdd1.reduceByKey(lambda x,y: x+y)
 rdd1 = rdd1.sortBy(lambda x : x[1],ascending=False)
 categoriaMaxima = rdd1.take(1)

@@ -1,0 +1,4 @@
+#Desde el directorio raiz de la tarea nos movemos al Ejercicio3
+cd Ejercicio3
+#Posteriormente ejecutamos el script
+spark-submit personaYMetodosDePago.py 

@@ -1,0 +1,7 @@
+#Desde el directorio raiz de la tarea nos movemos al Ejercicio2
+cd Ejercicio2
+#Posteriormente ejecutamos el script indicando la entrada y la salida
+spark-submit CategoriaDeVideosMasVista.py 0306 0306
+#Una vez terminada la ejecucion se pueden revisar los archivos en la carpeta de salida
+cd salida_0306
+ls
