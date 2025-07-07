@@ -1,0 +1,5 @@
+#Desde el directorio raiz de la tarea nos movemos al ejercicio2
+cd ejercicio2
+#Posteriormente ejecutamos el script que reconocera los archivos, mapper, combiner y reducer y guardara en la carpeta salida
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-*.jar -input resultados_futbol.csv -output salida -mapper "python3 mapperMediaGolesPartido.py" -reducer "python3 reducerMediaGolesPartido.py" -combiner "python3 combinerMediaGolesPartido.py"
+

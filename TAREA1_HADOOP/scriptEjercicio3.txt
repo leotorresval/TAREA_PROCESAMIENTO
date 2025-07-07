@@ -1,0 +1,4 @@
+#Desde el directorio raiz de la tarea nos movemos al ejercicio3
+cd ejercicio3/PersonasQueCompranEnMuchasTiendas
+#Posteriormente ejecutamos el script que reconocera los archivos, mapper, combiner y reducer y guardara en la carpeta salida
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-*.jar -input casoDePrueba.txt -output salida -mapper "python3 mapperPersonasQueCompranEnMuchasTiendas.py" -reducer "python3 reducerPersonasQueCompranEnMuchasTiendas.py" -combiner "python3 combinerPersonasQueCompranEnMuchasTiendas.py"
