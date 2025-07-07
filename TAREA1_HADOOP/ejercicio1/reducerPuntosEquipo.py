@@ -14,11 +14,11 @@ for linea in sys.stdin:
     if subproblema==equipo:
         puntos = puntos+puntaje
     else:
-        print(subproblema,":",puntos)
+        print(f"{subproblema};{puntos}")
         subproblema=equipo
         puntos=puntaje
 if subproblema is not None:
-    print(f"{subproblema}:{puntos}")
+    print(f"{subproblema};{puntos}")
     
     
     
